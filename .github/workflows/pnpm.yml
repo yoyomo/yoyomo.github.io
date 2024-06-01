@@ -19,15 +19,14 @@ jobs:
       uses: actions/setup-node@v3
       with:
         node-version: 18.x
-        cache: 'npm'
-    - run: npm ci
-    - run: npm run build
+        cache: 'pnpm'
+    - run: pnpm i
+    - run: pnpm build
     - name: Cache build folder
       uses: actions/upload-pages-artifact@v3
       with:
         name: github-pages
         path: build
-        if-no-files-found: error
 
   deploy:
     needs: build
