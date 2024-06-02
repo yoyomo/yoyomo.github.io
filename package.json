@@ -13,7 +13,7 @@
     "build": "tsc && vite build",
     "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview",
-    "repos": "gh api -H \"Accept: application/vnd.github+json\" user/repos --jq '.[] | {name: .name, has_pages}' --paginate | grep true"
+    "repos": "gh api -H \"Accept: application/vnd.github+json\" user/repos --jq 'map(select(.has_pages)) | map(({name: .name, description}))' --paginate"
   },
   "dependencies": {
     "@mantine/core": "^7.10.1",
