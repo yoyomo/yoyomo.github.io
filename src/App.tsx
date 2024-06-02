@@ -1,16 +1,17 @@
-import { useState } from 'react'
+import { repos } from './static-repos'
 
 export const App = () => {
-  const [count, setCount] = useState(0)
 
   return (
     <>
       <h1>yoyomo's github pages</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-      </div>
+      <ul>
+        {repos.map((repo) => (
+          <li key={repo.name}>
+            <a href={`https://yoyomo.github.io/${repo.name}/`}>{repo.name}</a>
+          </li>
+        ))}
+      </ul>
     </>
   )
 }
