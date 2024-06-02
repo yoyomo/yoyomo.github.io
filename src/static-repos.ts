@@ -11,5 +11,5 @@ export const repos = [
     { "description": "Perimeter calculator (from 2019 gist https://gist.github.com/yoyomo/66f881cee698ee6cc7c1bc3d7ee7f8a2)", "name": "perimeter" },
     { "description": "React + MUV architecture", "name": "react-muv-template" },
     { "description": "sp404 utilities (Perfect Loop Start)", "name": "sp404" },
-    { "description": "Main site for all of my code/github pages", "name": "yoyomo.github.io" }
+    // { "description": "Main site for all of my code/github pages", "name": "yoyomo.github.io" } // this
 ]
