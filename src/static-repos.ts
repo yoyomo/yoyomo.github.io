@@ -5,7 +5,7 @@ export const repos = [
     { "description": "A circle that changes a song's tempo", "name": "circleTemper" },
     // { "description": "Apartments and houses interior architecture in three.js", "name": "house" }, // broken
     { "description": "i ching without pen and paper", "name": "iching" },
-    { "description": "MIDI reader, parser, writer, and player", "name": "midijs" },
+    // { "description": "MIDI reader, parser, writer, and player", "name": "midijs" }, // ?
     { "description": "Live example for MML JS library", "name": "mmljs-example" },
     { "description": "Both Modular and Static Examples of MuvJS", "name": "muvjs-example" },
     { "description": "Perimeter calculator (from 2019 gist https://gist.github.com/yoyomo/66f881cee698ee6cc7c1bc3d7ee7f8a2)", "name": "perimeter" },
