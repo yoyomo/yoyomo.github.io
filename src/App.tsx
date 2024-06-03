@@ -24,7 +24,7 @@ export const App = () => {
         >
           {images[repo.name] && (
             <Card.Section>
-              <Image src={images[repo.name]} w={160} h={160} alt={repo.name} />
+              <Image src={images[repo.name]} w={180} h={180} alt={repo.name} />
             </Card.Section>
           )}
 
