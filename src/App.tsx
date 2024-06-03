@@ -8,7 +8,7 @@ export const App = () => {
       <div className="vh-100 flex flex-col items-center">
         <NavLink
           href="https://github.com/yoyomo"
-          label="yoyomo's github pages"
+          label="armando's github pages"
           className="py-8 text-center"
           classNames={{ label: "text-2xl font-bold" }}
         />
