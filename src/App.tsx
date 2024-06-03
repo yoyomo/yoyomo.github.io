@@ -3,18 +3,18 @@ import { images } from "./assets";
 import { repos } from "./static-repos";
 
 export const App = () => {
-  console.log(images);
   return (
-    <div className="flex flex-col bg-gray-100">
+    <div className="flex flex-col items-center bg-gray-100">
       <NavLink
         href="https://github.com/yoyomo"
         label="yoyomo's github pages"
-        className="text-center text-lg font-bold"
+        className="py-8 text-center"
+        classNames={{ label: "text-2xl font-bold" }}
       />
       {repos.map((repo) => (
         <Card
           key={repo.name}
-          className="mx-4 my-2 items-center"
+          className="my-2 h-full w-96 items-center rounded-md"
           shadow="sm"
           padding="xl"
           component="a"
