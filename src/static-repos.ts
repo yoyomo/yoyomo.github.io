@@ -4,7 +4,7 @@ export const repos = [
   { description: "i ching without pen and paper", name: "iching" },
   { description: "A circle that changes a song's tempo", name: "circleTemper" },
   {
-    description: "Animal Crossing New Horizon Tool Usage Counter App",
+    description: "Animal Crossing Tool Usage Counter",
     name: "acnh-counter",
   },
   { description: "Checker boardgame", name: "checker" },
@@ -16,8 +16,7 @@ export const repos = [
     name: "muvjs-example",
   },
   {
-    description:
-      "Perimeter calculator (from 2019 gist https://gist.github.com/yoyomo/66f881cee698ee6cc7c1bc3d7ee7f8a2)",
+    description: "Perimeter calculator in rust",
     name: "perimeter",
   },
   { description: "React + MUV architecture", name: "react-muv-template" },
